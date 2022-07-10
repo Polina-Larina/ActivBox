@@ -1,0 +1,25 @@
+.start {
+	height: 400px;
+	margin: 90px 0 0 0;
+	text-align: center;
+
+}
+
+.start__title {
+	font-family: "Raleway";
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 35.22px;
+	color: black;
+	margin-bottom: 35px;
+}
+
+.start__text {
+	font-family: "raleway";
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: black;
+	text-transform: uppercase;
+	margin-bottom: 80px;
+}

@@ -1,0 +1,76 @@
+.team {
+	margin: 100px 0 70px;
+}
+
+.team__container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+
+.team__items {
+	width: 25%;
+	padding: 0 15px;
+	margin-bottom: 30px;
+}
+
+.team__photo {
+	display: block;
+	min-width: 100%;
+	height: auto;
+}
+
+.team__name {
+	font-family: "raleway";
+	font-weight: 700;
+	font-size: 24px;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	line-height: 28px;
+}
+
+.team__prof {
+	font-family: "raleway";
+	font-weight: 400;
+	font-size: 18px;
+	color: #FF4343;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	line-height: 21.13px;
+
+}
+
+.team__text {
+	font-family: "raleway";
+	font-weight: 400;
+	font-size: 18px;
+	color: #6C7279;
+	margin-bottom: 10px;
+	line-height: 21.13px;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.social {
+	display: flex;
+}
+
+.soc__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	width: 39px;
+	height: 39px;
+	color: #C6CBCD;
+	border: 1px solid #C6CBCD;
+	margin-right: 5px;
+}
+
+.soc__link:hover {
+	color: #FF4343CC;
+	border: 1px solid #FF4343CC;
+	transition: background 0.1s linear;
+
+}

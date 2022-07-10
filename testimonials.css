@@ -1,0 +1,58 @@
+.testimonials {
+	width: 100%;
+	overflow: hidden;
+	height: auto;
+	margin: 0;
+
+}
+
+.test__inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.test__photo {
+	width: 50%;
+	height: auto;
+	position: relative;
+	background-size: cover;
+}
+
+.test__img {
+	object-fit: cover;
+	width: 100%;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.test__content {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	padding-left: 10%;
+	background-color: #5C3249;
+}
+
+.test__text {
+	margin-top: 10%;
+	font-family: "cardo";
+	width: 470px;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 48.54px;
+	color: #fff;
+}
+
+.test__name {
+	font-family: "raleway";
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 15.26px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+
+

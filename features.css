@@ -1,0 +1,36 @@
+.features {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 100px 0;
+}
+
+.features__items {
+	width: 33.33333%;
+	text-align: center;
+	padding: 0 40px;
+	margin: 25px 0;
+}
+
+.feat__icon {
+	margin-bottom: 20px;
+}
+
+.feat__text {
+	font-family: "raleway";
+	font-weight: 400;
+	font-size: 18px;
+	color: #6C7279;
+	margin-bottom: 15px;
+	line-height: 21.13px;
+	justify-content: center;
+}
+
+.feat__title {
+	font-family: "raleway";
+	font-weight: 900;
+	font-size: 24px;
+	color: black;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	line-height: 28px;
+}
